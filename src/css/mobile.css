@@ -1,0 +1,80 @@
+@media only screen and (max-width:768px) {
+    .header-0 .navbar-brand {
+        padding-left: 1rem !important;
+    }
+
+    .section-1 .row .col-md-6 .pannel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-2 .cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .section-2 .numbers .rect {
+        width: 10rem !important;
+        height: 8rem !important;
+    }
+
+    .section-2 .numbers .rect h1 {
+        font-size: 2rem !important;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .row .col-md-6 {
+        text-align: center !important;
+    }
+
+    .section-3 .desktop i {
+        font-size: 8vmin !important;
+    }
+
+    .section-4 .carousel-item {
+        padding-left: 0.6rem !important;
+    }
+
+    .section-4 .team {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .section-4 .carousel-inner {
+        width: 24rem !important;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    footer .row .col-md-2 {
+        margin-top: 8vmin !important;
+    }
+}
+
+/* @media only screen and (max-width:320px) {
+    .section-4 .card {
+        width: 18rem;
+    }
+
+    .section-4 .carousel-inner {
+        margin-left: -14vmin;
+    }
+} */
+@media only screen and (max-width:320px) {
+    .section-4 .card {
+        width: 18rem !important;
+    }
+
+    .section-4 .carousel-inner {
+        margin-left: -14vmin !important;
+    }
+}
